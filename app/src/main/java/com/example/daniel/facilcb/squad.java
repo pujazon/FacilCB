@@ -25,31 +25,11 @@ public class squad extends AppCompatActivity {
         setContentView(R.layout.activity_squad);
 
         //Declaracion de los Buttons
-        Button connectButton = (Button) findViewById(R.id.connect);
         Button downloadButton = (Button) findViewById(R.id.download);
-        Button disconnectButton = (Button) findViewById(R.id.disconnect);
 
         final String array_alineaciones;
-
         ftpclient = new MyFTPClientFunctions();
 
-
-        disconnectButton.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-                new Thread(new Runnable() {
-                    public void run() {
-                        boolean status = false;
-                        status = ftpclient.ftpDisconnect();
-
-                        if (status == true) {
-                            Log.d(TAG, "EXIT Success");
-                        } else {
-                            Log.d(TAG, "EXIT failed");
-                        }
-                    }
-                }).start();
-            }
-        });
 
         downloadButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
@@ -61,9 +41,7 @@ public class squad extends AppCompatActivity {
                 }).start();
             }
         });
-
-
-
+        
 
     }
 }

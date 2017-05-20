@@ -27,37 +27,6 @@ public class MyFTPClientFunctions {
     BufferedReader reader = null;
     String firstLine = null;
 
-    /*
-    //1. CONECTARSE FTP
-    public boolean ftpConnect(String host, String username, String password, int port) {
-        try {
-            mFTPClient = new FTPClient(); //Conecta al Host
-            mFTPClient.connect(host, port); //
-            if (FTPReply.isPositiveCompletion(mFTPClient.getReplyCode())) {
-                boolean status = mFTPClient.login(username, password); //User y pasword
-                //Establecemos el tipo de transm ficheros
-                mFTPClient.setFileType(FTP.BINARY_FILE_TYPE);
-                mFTPClient.enterLocalPassiveMode();
-            }
-        } catch (Exception e) {
-            Log.d(TAG, "Error: could not connect to host " + host);
-        }
-        return false;
-    }
-    */
-
-    //DESCONECTARSE FTP
-    public boolean ftpDisconnect() {
-        try {
-            mFTPClient.logout();
-            mFTPClient.disconnect();
-            return true;
-        } catch (Exception e) {
-            Log.d(TAG, "Error occurred while disconnecting from ftp server.");
-        }
-        return false;
-    }
-
 
     // DESCARGAR DEL FTP SERVER
 
@@ -90,27 +59,34 @@ public class MyFTPClientFunctions {
             byte[] buffer=new byte[1024];
             while((bytesRead=bInf.read(buffer))!=-1)
             {
-                fileContent=new String(buffer,0,bytesRead); }
+                fileContent=new String(buffer,0,bytesRead);
+
+            }
+
+            mFTPClient.logout();
+            mFTPClient.disconnect();
 
 
         } catch (Exception e) {
-            Log.d(TAG, "Read failed");
+            Log.d(TAG, "An error has ocuerred while connecting, reading or disconnecting");
         }
 
         return fileContent;
     }
 
 
+
+    /*
     //ACTUALIZAR FTP
 
     public boolean ftpUpload(String srcFilePath, String desFileName, String desDirectory, Context context) {
         boolean status = false;
         try {
             FileInputStream srcFileStream = new FileInputStream(srcFilePath);
-        // change working directory to the destination directory
-        // if (ftpChangeDirectory(desDirectory)) {
+            // change working directory to the destination directory
+            // if (ftpChangeDirectory(desDirectory)) {
             status = mFTPClient.storeFile(desFileName, srcFileStream);
-        // }
+            // }
             srcFileStream.close();
             return status;
         } catch (Exception e) {
@@ -119,4 +95,5 @@ public class MyFTPClientFunctions {
         }
         return status;
     }
+    */
 }
