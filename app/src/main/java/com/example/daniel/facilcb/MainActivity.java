@@ -24,12 +24,20 @@ public class MainActivity extends AppCompatActivity {
 
         //Declaracion de los Buttons
         Button mapButton = (Button) findViewById(R.id.map_button_menu);
+        Button squadButton = (Button) findViewById(R.id.squad_button_menu);
         ImageButton infoButton = (ImageButton) findViewById(R.id.info_button_menu);
+
 
 
         mapButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(new Intent(MainActivity.this, MySite.class));
+            }
+        });
+
+        squadButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(MainActivity.this, squad.class));
             }
         });
 

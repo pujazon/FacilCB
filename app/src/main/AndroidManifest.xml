@@ -23,6 +23,10 @@
         </activity>
         <activity android:name=".MySite" />
         <activity android:name=".information_activity" />
+        <activity
+            android:name=".squad"
+            android:label="@string/title_activity_squad"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
