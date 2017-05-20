@@ -17,6 +17,7 @@ import android.widget.ImageButton;
 public class squad extends AppCompatActivity {
 
     private MyFTPClientFunctions ftpclient = null;
+    public String array_alineacion = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,23 +29,10 @@ public class squad extends AppCompatActivity {
         Button downloadButton = (Button) findViewById(R.id.download);
         Button disconnectButton = (Button) findViewById(R.id.disconnect);
 
+        final String array_alineaciones;
+
         ftpclient = new MyFTPClientFunctions();
 
-        connectButton.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-                new Thread(new Runnable() {
-                    public void run() {
-                        boolean status = false;
-                        status = ftpclient.ftpConnect("ftp.sfacilcb.pe.hu", "u843056452", "x7evki_", 21);
-                        if (status == true) {
-                            Log.d(TAG, "Connection Success");
-                        } else {
-                            Log.d(TAG, "Connection failed");
-                        }
-                    }
-                }).start();
-            }
-        });
 
         disconnectButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
@@ -67,14 +55,8 @@ public class squad extends AppCompatActivity {
             public void onClick(View v){
                 new Thread(new Runnable() {
                     public void run() {
-                        boolean status = false;
-                        status = ftpclient.ftpDownload("/alineaciones.txt","/res");
-
-                        if (status == true) {
-                            Log.d(TAG, "Download Success");
-                        } else {
-                            Log.d(TAG, "AAAA Download failed");
-                        }
+                        array_alineacion = ftpclient.ftpDownload("ftp.sfacilcb.pe.hu", "u843056452", "x7evki_", 21,"alineaciones.txt");
+                        System.out.println(array_alineacion);
                     }
                 }).start();
             }

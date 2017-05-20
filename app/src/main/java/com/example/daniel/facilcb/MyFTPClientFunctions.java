@@ -4,8 +4,15 @@ import android.content.Context;
 import android.util.Log;
 import org.apache.commons.net.ftp.*;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
 
 import static android.content.ContentValues.TAG;
 
@@ -17,7 +24,10 @@ import static android.content.ContentValues.TAG;
 public class MyFTPClientFunctions {
 
     public FTPClient mFTPClient = null;
+    BufferedReader reader = null;
+    String firstLine = null;
 
+    /*
     //1. CONECTARSE FTP
     public boolean ftpConnect(String host, String username, String password, int port) {
         try {
@@ -28,13 +38,13 @@ public class MyFTPClientFunctions {
                 //Establecemos el tipo de transm ficheros
                 mFTPClient.setFileType(FTP.BINARY_FILE_TYPE);
                 mFTPClient.enterLocalPassiveMode();
-                return status;
             }
         } catch (Exception e) {
             Log.d(TAG, "Error: could not connect to host " + host);
         }
         return false;
     }
+    */
 
     //DESCONECTARSE FTP
     public boolean ftpDisconnect() {
@@ -56,20 +66,38 @@ public class MyFTPClientFunctions {
      * srcFilePath: path to the source file in FTP server desFilePath: path to
      * the destination file to be saved in sdcard
      */
-    public boolean ftpDownload(String srcFilePath, String desFilePath) {
+    public String ftpDownload(String host, String username, String password, int port, String FILE) {
         boolean status = false;
-        try {
-            FileOutputStream desFileStream = new FileOutputStream(desFilePath);
-            ;
-            status = mFTPClient.retrieveFile(srcFilePath, desFileStream);
-            desFileStream.close();
+        String fileContent=null;
+        try{
 
-            return status;
+
+            mFTPClient = new FTPClient(); //Conecta al Host
+            mFTPClient.connect(host, port); //
+            if (FTPReply.isPositiveCompletion(mFTPClient.getReplyCode())) {
+                status = mFTPClient.login(username, password); //User y pasword
+                //Establecemos el tipo de transm ficheros
+                mFTPClient.setFileType(FTP.BINARY_FILE_TYPE);
+                mFTPClient.enterLocalPassiveMode();
+            }
+
+            if (status) System.out.println("Connection OK");
+
+            InputStream iStream=mFTPClient.retrieveFileStream(FILE);
+            BufferedInputStream bInf=new BufferedInputStream (iStream);
+
+            int bytesRead;
+            byte[] buffer=new byte[1024];
+            while((bytesRead=bInf.read(buffer))!=-1)
+            {
+                fileContent=new String(buffer,0,bytesRead); }
+
+
         } catch (Exception e) {
-            Log.d(TAG, "download failed");
+            Log.d(TAG, "Read failed");
         }
 
-        return status;
+        return fileContent;
     }
 
 
