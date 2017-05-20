@@ -13,4 +13,32 @@
     tools:context="com.example.daniel.facilcb.squad"
     tools:showIn="@layout/activity_squad">
 
+    <Button
+        android:text="Download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/connect"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:id="@+id/download" />
+
+    <Button
+        android:text="Disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/download"
+        android:layout_alignLeft="@+id/download"
+        android:layout_alignStart="@+id/download"
+        android:layout_marginTop="70dp"
+        android:id="@+id/disconnect" />
+
+    <Button
+        android:text="Connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="102dp"
+        android:id="@+id/connect"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/download"
+        android:layout_alignStart="@+id/download" />
 </RelativeLayout>

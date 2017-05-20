@@ -5,6 +5,7 @@ import android.util.Log;
 import org.apache.commons.net.ftp.*;
 
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 
 import static android.content.ContentValues.TAG;
 
@@ -46,6 +47,31 @@ public class MyFTPClientFunctions {
         }
         return false;
     }
+
+
+    // DESCARGAR DEL FTP SERVER
+
+    /**
+     * mFTPClient: FTP client connection object (see FTP connection example)
+     * srcFilePath: path to the source file in FTP server desFilePath: path to
+     * the destination file to be saved in sdcard
+     */
+    public boolean ftpDownload(String srcFilePath, String desFilePath) {
+        boolean status = false;
+        try {
+            FileOutputStream desFileStream = new FileOutputStream(desFilePath);
+            ;
+            status = mFTPClient.retrieveFile(srcFilePath, desFileStream);
+            desFileStream.close();
+
+            return status;
+        } catch (Exception e) {
+            Log.d(TAG, "download failed");
+        }
+
+        return status;
+    }
+
 
     //ACTUALIZAR FTP
 
