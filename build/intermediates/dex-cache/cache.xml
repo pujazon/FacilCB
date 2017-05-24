@@ -241,7 +241,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="800fb0c1feaf69f4f42457e7a03cad7a98a7db11">
+        sha1="04fcf85b1ad964e7b0c767a06b0c26ae29012a35">
         <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2e4236d03ef9b2c1a91fa1f34b7e18dc5884cda4/classes.dex" />
     </item>
     <item

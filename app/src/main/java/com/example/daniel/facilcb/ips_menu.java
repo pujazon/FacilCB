@@ -45,6 +45,10 @@ public class ips_menu extends AppCompatActivity {
         ListView listView = (ListView) findViewById(android.R.id.list);
         listView.setAdapter(mAdapter);
 
+
+        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA::::"+ mAdapter.getCount());
+
+
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -202,6 +206,8 @@ public class ips_menu extends AppCompatActivity {
             PackageInfo info = pm.getPackageInfo(packageName, PackageManager.GET_ACTIVITIES);
 
             ActivityInfo[] activities = info.activities;
+
+            System.out.println(activities.length);
             for (int i = 0; i < activities.length; i++) {
                 parseExample(activities[i], result);
             }
@@ -216,8 +222,11 @@ public class ips_menu extends AppCompatActivity {
 
     @SuppressWarnings("unchecked")
     private void parseExample(ActivityInfo info, ArrayList<ExampleEntry> list) {
+
         try {
             Class cls = Class.forName(info.name);
+            System.out.println(cls.getSimpleName());
+
             if (cls.isAnnotationPresent(SdkExample.class)) {
                 SdkExample annotation = (SdkExample) cls.getAnnotation(SdkExample.class);
                 list.add(new ExampleEntry(new ComponentName(info.packageName, info.name),
