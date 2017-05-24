@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_628b8477cfabbc7b3a22b6e0c915169610f58faf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -39,15 +30,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.0.1_198c93e06caa0ee2d6e588bd601b96041047f2bd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -57,57 +39,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.0.1_3089212c021f396e57fd8b1fb1b9a96f9be910b4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-10.0.1_5008f0c58dc1fa756340cad6e4e08ea59ec4b85d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/daniel/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
         <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_8f42b72a305fa121cbe10fa25e52f114d18a0672/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_2a29be12420551605de5c3c2faba02999440aa43/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.0.1_9376faae086945ec58ce687672f53f639d714e93/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_cc883a11cceded005bcc62e48deccd138052a304/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -147,33 +84,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_7d8c1cbee49bfcf140b83afe62183c01b2c07c28/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.0.1_d2858ee113933dfaaa69932e82cfce12416f3419/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_c7c710ea06a7e0002fb2d5061fcc8713c7e6e33b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -198,6 +108,276 @@
         revision="25.0.2"
         sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
         <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.0.1_d108161de962e06d2a1ca685892bcd9857400f75/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/libs/commons-net-1.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="abb932adb2c10790c1eaa4365d3ac2a1ac7cb700">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-net-1.4.1_764d14724536c385c278fd78bdb0bcfbf5e92003/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_f13e89ff74dfac08858f300d9dfa10391577ce0c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.0.1_f8b6b61c1ed5017623039cff69e43b4ff42ed991/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_af338ee473ae8e0ce314cc0331dff634f9f03485/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.0.1_98254ce0efc8674581d37939f53a7c75a27ed38f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_beed354b2876f4a56d8aa6f6ed00396256ba543f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-10.0.1_3e8a93e9539524010327f46e2637f03f8cde3eae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_7045166df3bdd97d999abb6a4f4cde1f3748cf47/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_a893549d2d40743ca6e39128ff0640756fc3f69b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-10.0.1_fba2d19dd82ca08518ce29f9f502cfa2326e8a8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_2d07d46b545b1f80b06cc91aabfc0c84d8a52a3f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_bc43204ae085c25f96d0f8d9cbd9debac4e46642/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_68cfb527f1b1f2016bdd4eb3062a6f1cc86b5575/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.0.1_87894c73bc376f437e8f892fb1251f4f7c451e10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-10.0.1_9c393ee8a95bf63cc1d3069d644298bcec5bc914/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_b2d430865f1f0a6ba15cc2410e7b13f0b53ba384/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6106c5397eb0098c874367e2b099999932a438c9">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1344cf2b458c459942d00617c705dbbe04a81163/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.0.1_ec7c51c894a8950550d527b492c65d9848a9b551/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.0.1_69eec5236282a61ce68c95310f3c3e91fe1b09b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.0.1_622f2956d9833b0bc3fbcd10cbdebdb6784c5912/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_628b8477cfabbc7b3a22b6e0c915169610f58faf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.0.1_198c93e06caa0ee2d6e588bd601b96041047f2bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.0.1_3089212c021f396e57fd8b1fb1b9a96f9be910b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-10.0.1_5008f0c58dc1fa756340cad6e4e08ea59ec4b85d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_2a29be12420551605de5c3c2faba02999440aa43/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-10.0.1_9376faae086945ec58ce687672f53f639d714e93/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_cc883a11cceded005bcc62e48deccd138052a304/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_7d8c1cbee49bfcf140b83afe62183c01b2c07c28/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.0.1_d2858ee113933dfaaa69932e82cfce12416f3419/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_c7c710ea06a7e0002fb2d5061fcc8713c7e6e33b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -241,7 +421,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="04fcf85b1ad964e7b0c767a06b0c26ae29012a35">
+        sha1="74b58279dc15babb5559abc5195703f4f120827d">
         <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2e4236d03ef9b2c1a91fa1f34b7e18dc5884cda4/classes.dex" />
     </item>
     <item
@@ -264,39 +444,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/libs/commons-net-1.4.1.jar"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="abb932adb2c10790c1eaa4365d3ac2a1ac7cb700">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/2/commons-net-1.4.1_764d14724536c385c278fd78bdb0bcfbf5e92003/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_f13e89ff74dfac08858f300d9dfa10391577ce0c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.0.1_f8b6b61c1ed5017623039cff69e43b4ff42ed991/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_af338ee473ae8e0ce314cc0331dff634f9f03485/classes.dex" />
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_128f4bf71465c355b6e5168018cba798cfcd2846/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -309,39 +462,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_128f4bf71465c355b6e5168018cba798cfcd2846/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.0.1_98254ce0efc8674581d37939f53a7c75a27ed38f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
         <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_864d5254978261e955a732dedbe42d69053afa74/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_beed354b2876f4a56d8aa6f6ed00396256ba543f/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -354,48 +480,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-10.0.1_3e8a93e9539524010327f46e2637f03f8cde3eae/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_7045166df3bdd97d999abb6a4f4cde1f3748cf47/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_a893549d2d40743ca6e39128ff0640756fc3f69b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
         <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.0.1_8230c1b6a765284092bde21d956b0a5112ace9bb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-10.0.1_fba2d19dd82ca08518ce29f9f502cfa2326e8a8b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -417,42 +507,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_2d07d46b545b1f80b06cc91aabfc0c84d8a52a3f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_bc43204ae085c25f96d0f8d9cbd9debac4e46642/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_68cfb527f1b1f2016bdd4eb3062a6f1cc86b5575/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.0.1_87894c73bc376f437e8f892fb1251f4f7c451e10/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -468,15 +522,6 @@
         revision="25.0.2"
         sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
         <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.0.1_6217e83095c19fb97e68db95b145748b9c658035/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-10.0.1_9c393ee8a95bf63cc1d3069d644298bcec5bc914/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -498,15 +543,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_b2d430865f1f0a6ba15cc2410e7b13f0b53ba384/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -522,33 +558,6 @@
         revision="25.0.2"
         sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
         <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.0.1_7a7acf84a623fda5a8d25622be3269647ef6bd94/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="669b6f27f631066c7d5129f1596611c70fb528ec">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1344cf2b458c459942d00617c705dbbe04a81163/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.0.1_ec7c51c894a8950550d527b492c65d9848a9b551/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-10.0.1_69eec5236282a61ce68c95310f3c3e91fe1b09b5/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -585,15 +594,6 @@
         revision="25.0.2"
         sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
         <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_06e6e4396cfffe8065141109cefb9be1b43dea48/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
-        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.0.1_622f2956d9833b0bc3fbcd10cbdebdb6784c5912/classes.dex" />
     </item>
     <item
         is-multidex="true"
