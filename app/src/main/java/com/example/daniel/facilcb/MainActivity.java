@@ -23,22 +23,21 @@ public class MainActivity extends AppCompatActivity {
 
 
         //Declaracion de los Buttons
-        Button ipsButton = (Button) findViewById(R.id.gps_button_menu);
-        Button mapButton = (Button) findViewById(R.id.map_button_menu);
-        Button squadButton = (Button) findViewById(R.id.squad_button_menu);
-        ImageButton infoButton = (ImageButton) findViewById(R.id.info_button_menu);
+        ImageButton gpsButton = (ImageButton) findViewById(R.id.gps_button_menu);
+        ImageButton ipsButton = (ImageButton) findViewById(R.id.ips_button_menu);
+        ImageButton squadButton = (ImageButton) findViewById(R.id.squad_button_menu);
 
 
 
-        ipsButton.setOnClickListener(new View.OnClickListener(){
+        gpsButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                startActivity(new Intent(MainActivity.this, ips_menu.class));
+                startActivity(new Intent(MainActivity.this, PROVAS.class));
             }
         });
 
-        mapButton.setOnClickListener(new View.OnClickListener(){
+        ipsButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                startActivity(new Intent(MainActivity.this, MySite.class));
+                startActivity(new Intent(MainActivity.this, information_activity.class));
             }
         });
 
@@ -48,11 +47,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        infoButton.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-                startActivity(new Intent(MainActivity.this, information_activity.class));
-            }
-        });
+
 
 
     }

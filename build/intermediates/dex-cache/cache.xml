@@ -277,7 +277,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="2dc9cb70888dc42cf79867731c728825d6544783">
+        sha1="0fc1d5e109833d56e7481974d6cc85c7394cbbab">
         <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1344cf2b458c459942d00617c705dbbe04a81163/classes.dex" />
     </item>
     <item
@@ -439,7 +439,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c3d829a81266a0b9e56c50da7fe018470ffd3484">
+        sha1="5bb7cff6e3e13eb9c531a36f5f5c530a941bfd2c">
         <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2e4236d03ef9b2c1a91fa1f34b7e18dc5884cda4/classes.dex" />
     </item>
     <item
