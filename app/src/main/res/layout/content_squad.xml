@@ -11,10 +11,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.daniel.facilcb.squad"
-    tools:showIn="@layout/activity_squad">
+    tools:showIn="@layout/activity_squad"
+    android:background="@drawable/f">
 
     <Button
-        android:text="Download"
+        android:text="Get squads!"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/download"
@@ -29,14 +30,17 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="30dp">
+        android:layout_height="30dp"
+        android:background="@android:color/holo_purple">
 
         <TextView
             android:text="Equipo Local"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/local_team"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textStyle="normal|bold" />
     </LinearLayout>
 
         <LinearLayout
@@ -45,18 +49,21 @@
             android:layout_height="30dp">
 
             <GridLayout android:layout_height="match_parent"
-                android:layout_width="75dp">
+                android:layout_width="75dp"
+                android:background="@android:color/holo_orange_dark">
 
                 <TextView
                     android:text="Portero:"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/textView5" />
+                    android:id="@+id/textView5"
+                    android:textStyle="normal|bold" />
             </GridLayout>
 
             <GridLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -70,18 +77,21 @@
             android:layout_height="30dp">
 
             <GridLayout android:layout_height="match_parent"
-                android:layout_width="75dp">
+                android:layout_width="75dp"
+                tools:background="@android:color/holo_blue_light">
 
                 <TextView
                     android:text="Defensas:"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/t6" />
+                    android:id="@+id/t6"
+                    android:textStyle="normal|bold" />
             </GridLayout>
 
             <GridLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -95,18 +105,21 @@
             android:layout_height="30dp">
 
             <GridLayout android:layout_height="match_parent"
-                android:layout_width="75dp">
+                android:layout_width="75dp"
+                android:background="@android:color/holo_green_light">
 
                 <TextView
                     android:text="Medios:"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/t7" />
+                    android:id="@+id/t7"
+                    android:textStyle="normal|bold" />
             </GridLayout>
 
             <GridLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -120,18 +133,21 @@
             android:layout_height="30dp">
 
             <GridLayout android:layout_height="match_parent"
-                android:layout_width="75dp">
+                android:layout_width="75dp"
+                android:background="@color/common_signin_btn_default_background">
 
                 <TextView
                     android:text="Delanteros:"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/t8" />
+                    android:id="@+id/t8"
+                    android:textStyle="normal|bold" />
             </GridLayout>
 
             <GridLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -155,14 +171,17 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="30dp">
+            android:layout_height="30dp"
+            android:background="@android:color/holo_purple">
 
             <TextView
                 android:text="Equipo Visitante:"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/v_team"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textStyle="normal|bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -172,18 +191,22 @@
 
             <GridLayout android:layout_height="match_parent"
                 android:layout_width="75dp"
-                android:id="@+id/t11">
+                android:id="@+id/t11"
+                android:background="@android:color/holo_orange_dark">
 
                 <TextView
                     android:text="Portero:"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/textView5" />
+                    android:id="@+id/textView5"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold" />
             </GridLayout>
 
             <GridLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -197,18 +220,21 @@
             android:layout_height="30dp">
 
             <GridLayout android:layout_height="match_parent"
-                android:layout_width="75dp">
+                android:layout_width="75dp"
+                android:background="@android:color/holo_blue_dark">
 
                 <TextView
                     android:text="Defensas:"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/t12" />
+                    android:id="@+id/t12"
+                    android:textStyle="normal|bold" />
             </GridLayout>
 
             <GridLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -222,18 +248,22 @@
             android:layout_height="30dp">
 
             <GridLayout android:layout_height="match_parent"
-                android:layout_width="75dp">
+                android:layout_width="75dp"
+                android:background="@android:color/holo_green_light">
 
                 <TextView
                     android:text="Medios:"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/t77" />
+                    android:id="@+id/t77"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold" />
             </GridLayout>
 
             <GridLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -247,18 +277,21 @@
             android:layout_height="30dp">
 
             <GridLayout android:layout_height="match_parent"
-                android:layout_width="75dp">
+                android:layout_width="75dp"
+                android:background="@color/common_signin_btn_default_background">
 
                 <TextView
                     android:text="Delanteros:"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/t88" />
+                    android:id="@+id/t88"
+                    android:textStyle="normal|bold" />
             </GridLayout>
 
             <GridLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
 
                 <TextView
                     android:layout_width="wrap_content"

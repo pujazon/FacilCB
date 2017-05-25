@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.daniel.facilcb.MainActivity">
+    tools:context="com.example.daniel.facilcb.MainActivity"
+    android:background="@drawable/f">
 
     <include layout="@layout/content_main" />
 

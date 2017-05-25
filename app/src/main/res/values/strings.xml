@@ -77,6 +77,8 @@
     <string name="title_activity_provas">PROVAS</string>
     <string name="title_activity_ips">ips</string>
     <string name="title_activity_image_view">ImageViewActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
 
 
 </resources>
