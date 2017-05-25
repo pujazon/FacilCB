@@ -183,6 +183,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/daniel/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_bfffeec1906d4c51239c2d80bcfd549b132f696b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -237,6 +246,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/daniel/.gradle/caches/modules-2/files-2.1/com.pubnub/pubnub-android/3.7.5/d2fca42bd2a37f584bcabeaecdc82fa4c458dd4e/pubnub-android-3.7.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d2fca42bd2a37f584bcabeaecdc82fa4c458dd4e">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/pubnub-android-3.7.5_2c8e46fd0ab852e0d1fb4fbfaaacecf6e4530d44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -259,7 +277,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6106c5397eb0098c874367e2b099999932a438c9">
+        sha1="2dc9cb70888dc42cf79867731c728825d6544783">
         <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1344cf2b458c459942d00617c705dbbe04a81163/classes.dex" />
     </item>
     <item
@@ -421,7 +439,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="74b58279dc15babb5559abc5195703f4f120827d">
+        sha1="c3d829a81266a0b9e56c50da7fe018470ffd3484">
         <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2e4236d03ef9b2c1a91fa1f34b7e18dc5884cda4/classes.dex" />
     </item>
     <item
@@ -558,6 +576,15 @@
         revision="25.0.2"
         sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
         <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.0.1_7a7acf84a623fda5a8d25622be3269647ef6bd94/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/daniel/Escriptori/FacilCB/app/build/intermediates/exploded-aar/com.davemorrissey.labs/subsampling-scale-image-view/3.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3d7c0b04b923dbcb3181aaddb6f0e3a6d28f785e">
+        <dex dex="/home/daniel/Escriptori/FacilCB/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.davemorrissey.labs-subsampling-scale-image-view-3.2.0_74886c88347bcf9e06edca9867bee7b1e92a811c/classes.dex" />
     </item>
     <item
         is-multidex="true"

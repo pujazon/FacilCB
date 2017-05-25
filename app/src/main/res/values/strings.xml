@@ -75,6 +75,8 @@
     <string name="text_orientation">Orient.: [%1$5.2f,%2$5.2f,%3$5.2f,%4$5.2f]</string>
     <string name="title_activity_ips_menu">ips_menu</string>
     <string name="title_activity_provas">PROVAS</string>
+    <string name="title_activity_ips">ips</string>
+    <string name="title_activity_image_view">ImageViewActivity</string>
 
 
 </resources>
